@@ -6,43 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Mainul Hasan Khan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables | Lists | Block</title>
+    <title>Form</title>
 </head>
 
 <body>
 
-    <table border="1">
-        <tr>
-            <th>First name</th>
-            <th>Last name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Mainul Hasan</td>
-            <td>Khan</td>
-            <td>28</td>
-        </tr>
-    </table>
+    <form action="#" method="post">
+        <fieldset>
+            <legend> Submit form </legend>
+            First Name:
+            <input type="text" placeholder="enter your first name">
+            <br>
+            <br>
 
-    <ul style="list-style-type:circle;">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ul>
+            Last Name:
+            <input type="text" placeholder="enter your last name">
+            <br>
+            <br>
 
-    <ol type="i">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ol>
+            Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br>
+            <br>
 
-    <dl>
-        <dt>coffee</dt>
-        <dd> - Black</dd>
-        <dd> - White</dd>
-        <dt>Milk</dt>
-        <dd> - cold drink</dd>
-    </dl>
+            <input type="submit" value="Send">
+
+        </fieldset>
+
+    </form>
 
 </body>
 
